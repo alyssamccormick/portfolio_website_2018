@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+#header {
+    color: white;
+    font-family: 'barlow';
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    right: 200px;
+    font-size: 20pt;
+    letter-spacing: 10px;
+}
