@@ -2,13 +2,30 @@ body {
     background-color: black;
 }
 
-#header {
-    color: white;
-    font-family: 'barlow';
-    font-weight: bold;
-    font-style: italic;
-    position: absolute;
-    right: 200px;
-    font-size: 20pt;
-    letter-spacing: 10px;
+#home {
+    font-family : Barlow;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 50px;
+  letter-spacing : 6.25px;
+  color : #FFFFFF;
+  color : rgb(255, 255, 255);
+}
+
+nav {
+    color: #FFFFFF;
+}
+
+#homeinfo {
+    color: #FFFFFF;
+}
+
+#subheader {
+   font-family : Barlow;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 25px;
+  letter-spacing : 17.5px;
+  color : #BF0014;
+  color : rgb(191, 0, 20);
 }
