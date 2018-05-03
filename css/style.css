@@ -11,14 +11,19 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    height: 150px;
-    background-image: url(1x/nav_back.png);
+    height: 140px;
+    background-image: url(1x/navnav_back.png);
     background-repeat: repeat;
     background-size: contain;
 }
 
 #text {
     height: 100px;
+    margin: 20px;
+}
+
+#personallogo {
+    margin: 10px;
 }
 
 nav {
@@ -64,6 +69,7 @@ a:hover {
   color : rgb(255, 255, 255);
   float: right;
     margin-right: 20px;
+    width: 40%;
 }
 
 #images {
@@ -72,8 +78,21 @@ a:hover {
     flex-direction: column;
 }
 
+#phineas1 {
+    margin-bottom: 20px;
+    background-image: url(1x/photo_background.png);
+    background-size: 150%;
+}
+
+#phineas2 {
+    margin-bottom: 20px;
+}
+
 #homeinfo {
     color: #FFFFFF;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
 }
 
 #subheader {
@@ -84,4 +103,5 @@ a:hover {
   letter-spacing : 17.5px;
   color : #BF0014;
   color : rgb(191, 0, 20);
-}
+  display: flex;
+  }
