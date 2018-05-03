@@ -11,14 +11,6 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0px;
-    height: 150px;
-    background-image: url(1x/nav_back.png);
-    background-repeat: repeat;
-    background-size: contain;
-}
-
-#text {
-    height: 100px;
 }
 
 nav {
@@ -47,41 +39,21 @@ a:link {
 
 a:visited {
     color: rgb(191, 0, 20);
-    text-decoration: none;
 }
 
 a:hover {
     color: rgb(237, 27, 52);
 }
 
-#home {
-    font-family : Barlow;
-  font-weight : bold;
-  font-style : italic;
-  font-size : 50px;
-  letter-spacing : 6.25px;
-  color : #FFFFFF;
-  color : rgb(255, 255, 255);
-  float: right;
-    margin-right: 20px;
+.column {
+    float: left;
+    width: 48.5%;
+    padding: 10px;
+    height: 300px;
 }
 
-#images {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-#homeinfo {
-    color: #FFFFFF;
-}
-
-#subheader {
-   font-family : Barlow;
-  font-weight : bold;
-  font-style : italic;
-  font-size : 25px;
-  letter-spacing : 17.5px;
-  color : #BF0014;
-  color : rgb(191, 0, 20);
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
