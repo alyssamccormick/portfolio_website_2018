@@ -12,9 +12,9 @@ body {
     justify-content: space-around;
     margin: 0px;
     height: 140px;
-    background-image: url(1x/navnav_back.png);
+    background-image: url(1x/navy_back.png);
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #text {
@@ -68,31 +68,49 @@ a:hover {
   color : #FFFFFF;
   color : rgb(255, 255, 255);
   float: right;
-    margin-right: 20px;
     width: 40%;
+    position: relative;
 }
 
 #images {
-    margin: 20px;
+    margin: 8%;
     display: flex;
     flex-direction: column;
+    margin-top: 95px;
 }
 
 #phineas1 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     background-image: url(1x/photo_background.png);
-    background-size: 150%;
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
 }
 
 #phineas2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+     background-image: url(1x/photo_background.png);
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
+}
+
+#phineas3 {
+     background-image: url(1x/photo_background.png);
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
 }
 
 #homeinfo {
     color: #FFFFFF;
-    width: 50%;
+    width: 47%;
     position: absolute;
     margin-left: 50%;
+    position: absolute;
+    top: 400px;
+}
+
+p {
+    text-indent: 25px;
+    text-align: justify;
 }
 
 #subheader {
@@ -103,5 +121,4 @@ a:hover {
   letter-spacing : 17.5px;
   color : #BF0014;
   color : rgb(191, 0, 20);
-  display: flex;
   }

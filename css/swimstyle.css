@@ -3,7 +3,6 @@ body {
     margin: 0px;
 }
 
-
 #headertext {
     z-index: 5;
     margin-left: 10px;
@@ -11,6 +10,19 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0px;
+    height: 140px;
+    background-image: url(1x/navy_back.png);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#text {
+    height: 100px;
+    margin: 20px;
+}
+
+#personallogo {
+    margin: 10px;
 }
 
 nav {
@@ -45,15 +57,12 @@ a:hover {
     color: rgb(237, 27, 52);
 }
 
-.column {
-    float: left;
-    width: 48.5%;
-    padding: 10px;
-    height: 300px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+#swim {
+    color: white;
+    font-family: barlow;
+    letter-spacing: 170px;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    align-content: center;
 }
