@@ -63,6 +63,56 @@ a:hover {
     letter-spacing: 170px;
     font-size: 50px;
     text-align: center;
-    display: flex;
-    align-content: center;
+    margin: auto 20px;
+}
+
+.bodycopy {
+    columns: 100px 2;
+    color: white;
+    text-align: justify;
+    margin: 20px;
+}
+
+h3 {
+    font-family : Barlow;
+  font-weight : bold;
+  font-style : italic;
+  font-size : 25px;
+  letter-spacing : 17.5px;
+  color : #BF0014;
+  color : rgb(191, 0, 20);
+}
+
+#images {
+    margin: 8%;
+    margin-top: 95px;
+    columns: 200px 2;
+}
+
+#phineas1 {
+    margin-bottom: 50px;
+    background-image: url(1x/photo_background.png);
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
+}
+
+#phineas2 {
+    margin-bottom: 50px;
+     background-image: url(1x/photo_background.png);
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
+}
+
+#phineas3 {
+    margin-bottom: 50px;
+     background-image: url(1x/photo_background.png);
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
+}
+
+#avani {
+    margin-bottom: 50px;
+    background-image: url(1x/photo_background.png);
+    border-image: url(1x/photo_background.png);
+    border: 18px solid transparent;
 }
