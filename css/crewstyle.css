@@ -61,7 +61,7 @@ a:hover {
     color: white;
     font-family: barlow;
     letter-spacing: 170px;
-    font-size: 50px;
+    font-size: 5vw;
     margin: auto 20px;
     display: flex;
     align-self: center;
@@ -78,7 +78,7 @@ h3 {
     font-family : Barlow;
   font-weight : bold;
   font-style : italic;
-  font-size : 25px;
+  font-size : 2.5vw;
   letter-spacing : 17.5px;
   color : #BF0014;
   color : rgb(191, 0, 20);
