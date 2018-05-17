@@ -89,6 +89,12 @@ a:hover {
     border: 18px solid transparent;
 }
 
+#phineas1:hover {
+    transform: scale(1.1,1.1);
+    transition-delay: 90ms;
+    transition-duration: 200ms;
+}
+
 #phineas2 {
     margin-bottom: 50px;
      background-image: url(1x/photo_background.png);
@@ -96,10 +102,21 @@ a:hover {
     border: 18px solid transparent;
 }
 
+#phineas2:hover {
+    transform: scale(1.1,1.1);
+    transition-timing-function: steps(int,start);
+    transition-timing-function:
+}
+
 #phineas3 {
      background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+}
+
+#phineas3:hover {
+    transform: scale(1.1,1.1);
+    transition-delay: 90ms;
 }
 
 #homeinfo {

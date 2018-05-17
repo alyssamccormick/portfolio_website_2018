@@ -98,6 +98,11 @@ h3 {
     background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    margin-top: 10px;
+}
+
+#phineas1:hover {
+    transform: scale(1.1,1.1);
 }
 
 #phineas2 {
@@ -107,11 +112,21 @@ h3 {
     border: 18px solid transparent;
 }
 
+#phineas2:hover {
+    transform: scale(1.1,1.1);
+}
+
 #phineas3 {
     margin-bottom: 50px;
      background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#phineas3:hover {
+    transform: scale(1.1,1.1);
 }
 
 #avani {
@@ -119,13 +134,9 @@ h3 {
     background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    margin-left: 10px;
 }
 
-#bottom {
-    background-image: url(1x/navbar_background.png);
-    background-repeat: repeat;
-    position: absolute;
-    width: 100%;
-    color: white;
-
+#avani:hover {
+    transform: scale(1.1,1.1);
 }
