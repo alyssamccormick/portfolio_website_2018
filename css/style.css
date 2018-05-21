@@ -87,12 +87,12 @@ a:hover {
     background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    transition-duration: 200ms;
 }
 
 #phineas1:hover {
     transform: scale(1.1,1.1);
     transition-delay: 90ms;
-    transition-duration: 200ms;
 }
 
 #phineas2 {
@@ -100,18 +100,19 @@ a:hover {
      background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    transition-duration: 200ms;
 }
 
 #phineas2:hover {
     transform: scale(1.1,1.1);
-    transition-timing-function: steps(int,start);
-    transition-timing-function:
+    transition-delay: 90ms;
 }
 
 #phineas3 {
      background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    transition-duration: 300ms;
 }
 
 #phineas3:hover {

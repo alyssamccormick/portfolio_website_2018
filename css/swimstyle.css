@@ -70,6 +70,15 @@ a:hover {
 
 }
 
+.symbols {
+    position: absolute;
+    margin-top: 11vw;
+    margin-left: 70vw;
+    height: 4vw;
+    width: 26vw;
+    margin-right: 20px;
+}
+
 .bodycopy {
     columns: 100px 2;
     color: white;
@@ -99,10 +108,12 @@ h3 {
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
     margin-top: 10px;
+    transition-duration: 200ms;
 }
 
 #phineas1:hover {
     transform: scale(1.1,1.1);
+    transition-delay: 90ms;
 }
 
 #phineas2 {
@@ -110,10 +121,12 @@ h3 {
      background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
+    transition-duration: 200ms;
 }
 
 #phineas2:hover {
     transform: scale(1.1,1.1);
+    transition-delay: 90ms;
 }
 
 #phineas3 {
@@ -123,10 +136,12 @@ h3 {
     border: 18px solid transparent;
     margin-left: 10px;
     margin-top: 10px;
+    transition-duration: 200ms;
 }
 
 #phineas3:hover {
     transform: scale(1.1,1.1);
+    transition-delay: 90ms;
 }
 
 #avani {
@@ -135,8 +150,10 @@ h3 {
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
     margin-left: 10px;
+    transition-duration: 200ms;
 }
 
 #avani:hover {
     transform: scale(1.1,1.1);
+    transition-delay: 90ms;
 }
