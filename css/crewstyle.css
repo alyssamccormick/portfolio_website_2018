@@ -96,7 +96,6 @@ h3 {
 #images {
     margin: 8%;
     margin-top: 95px;
-    columns: 200px 2;
 }
 
 #phineas1 {
@@ -106,6 +105,7 @@ h3 {
     border: 18px solid transparent;
     margin-top: 10px;
     transition-duration: 200ms;
+    position: absolute;
 }
 
 #phineas1:hover {
@@ -119,6 +119,8 @@ h3 {
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
     transition-duration: 200ms;
+    margin-top: 300px;
+
 }
 
 #phineas2:hover {
@@ -131,9 +133,10 @@ h3 {
      background-image: url(1x/photo_background.png);
     border-image: url(1x/photo_background.png);
     border: 18px solid transparent;
-    margin-left: 10px;
-    margin-top: 10px;
     transition-duration: 200ms;
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 25%;
 }
 
 #phineas3:hover {
@@ -148,6 +151,10 @@ h3 {
     border: 18px solid transparent;
     margin-left: 10px;
     transition-duration: 200ms;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 25%;
+    margin-right: 10%;
 }
 
 #avani:hover {
