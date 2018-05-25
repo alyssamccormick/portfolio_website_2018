@@ -71,6 +71,10 @@ a:hover {
     position: relative;
 }
 
+p {
+    font-family: barlow;
+}
+
 #home:hover {
     font-weight: bolder;
 }
